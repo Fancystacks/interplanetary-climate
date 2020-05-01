@@ -16,6 +16,12 @@ const App = () => {
   const [previous, setPrevious] = useState(false);
 
   useEffect(() => {
+    const getFromApi = async () => {
+      const weather = await (await fetch(API_URL)).json();
+      console.log(weather);
+    }
+
+    getFromApi();
 
   }, [])
   return (
