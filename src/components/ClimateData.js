@@ -4,7 +4,7 @@ import { formatTemperature } from '../helpers';
 // Styles
 import { Wrapper, Date, Temp, Wind } from './ClimateStyling';
 
-const WeatherData = ({ sol, isMetric }) => (
+const ClimateData = ({ sol, isMetric }) => (
   <Wrapper>
     <Date>
       <h2>Header</h2>
@@ -39,4 +39,4 @@ const WeatherData = ({ sol, isMetric }) => (
   </Wrapper>
 );
 
-export default WeatherData;
+export default ClimateData;
