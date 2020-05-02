@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const PreviousWrapper = styled.div`
-  background: var(--clr-light);
-  color: var(--clr-dark);
+  background: var(--clr-dark);
+  color: var(--clr-light);
   position: fixed;
   opacity: .8;
   bottom: 0;
@@ -44,7 +44,8 @@ export const PreviousWrapper = styled.div`
 
 export const Toggle = styled.button`
   position: absolute;
-  background: var(--clr-light);
+  background: var(--clr-dark);
+  color: var(--clr-light);
   left: 50%;
   top: 5px;
   width: 7rem;
@@ -59,7 +60,7 @@ export const Toggle = styled.button`
   font-family: inherit;
   :hover,
   :focus {
-    color: var(--clr-dark);
+    color: var(--clr-light);
   }
   span {
     display: block;
