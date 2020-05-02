@@ -43,11 +43,11 @@ export const PreviousWrapper = styled.div`
 `;
 
 export const Toggle = styled.button`
-  position: absolute;
-  background: var(--clr-dark);
+  position: fixed;
+  background: transparent;
   color: var(--clr-light);
   left: 50%;
-  top: 5px;
+  top: 52px;
   width: 7rem;
   transform: translate(-50%, calc(-100% - 3rem));
   text-align: center;
@@ -74,10 +74,10 @@ export const Toggle = styled.button`
 
 export const PreviousDays = styled.div`
   display: grid;
-  padding: 2rem;
+  padding: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-content: space-between;
-  height: 150px;
+  height: 160px;
   overflow: auto;
 `;
 
