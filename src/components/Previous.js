@@ -9,10 +9,10 @@ const Previous = ({ weather, previous, setPrevious, setSelectedSol, isMetric }) 
       previous={previous}
     >
       <span>&#8593;</span>
-      <span className='sr-only'>Show previous weather</span>
+      <span className='sr-only'></span>
     </Toggle>
 
-    <h2 className='main-title previous-weather__title'>Previous 7 days</h2>
+    <h2 className='main-title previous-weather__title'>View forecast for the past several days</h2>
     <PreviousDays>
       {weather.map((sol, i) => (
         <PreviousDay key={sol.sol} previous={previous}>
@@ -30,7 +30,7 @@ const Previous = ({ weather, previous, setPrevious, setSelectedSol, isMetric }) 
         <p className='previous-day__temp'>
           Low:
            <span>{sol.minTemp}</span>
-          <span>{isMetric ? ' C' : ' F'}</span>
+          <span>{isMetric ? ' °C' : ' °F'}</span>
         </p>
         <button className='previous-day__more-info'
           onClick={() => setSelectedSol(i)} > Additional Info</button>
