@@ -4,7 +4,7 @@ export const PreviousWrapper = styled.div`
   background: var(--clr-light);
   color: var(--clr-dark);
   position: fixed;
-  opacity: .7;
+  opacity: .8;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -15,6 +15,7 @@ export const PreviousWrapper = styled.div`
   transition: transform 350ms ease, -webkit-transform 350ms ease;
   padding: 0rem;
   .previous-weather__title {
+    font-weight: 500;
     text-align: ${({ previous }) => (previous ? 'center' : 'center')};
     ${({ previous }) =>
       previous ? 'animation: slideUpIn 750ms forwards;' : 'text-align: center'};
@@ -46,11 +47,11 @@ export const Toggle = styled.button`
   background: var(--clr-light);
   left: 50%;
   top: 5px;
-  width: 9rem;
+  width: 7rem;
   transform: translate(-50%, calc(-100% - 3rem));
   text-align: center;
   font-size: var(--fs-h2);
-  line-height: 1;
+  line-height: 1.5;
   clip-path: polygon(50% 0, 0 100%, 100% 100%);
   cursor: pointer;
   color: var(--clr-gray);
