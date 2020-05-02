@@ -27,6 +27,11 @@ const Previous = ({ weather, previous, setPrevious, setSelectedSol }) => (
            <span>{sol.maxTemp}</span>
             <span>{isMetric ? ' C' : ' F'}</span>
           </p>
+          <p className='previous-day__temp'>
+            Low:
+           <span>{sol.minTemp}</span>
+            <span>{isMetric ? ' C' : ' F'}</span>
+          </p>
         </PreviousDay>
       ))}
     </PreviousDays>
