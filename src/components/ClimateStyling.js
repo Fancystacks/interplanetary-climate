@@ -4,7 +4,8 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1em;
-  padding: 40px 0;
+  padding: 20px 0;
+  margin-bottom: 40px;
 `;
 
 export const Date = styled.div`
@@ -24,7 +25,7 @@ export const Temp = styled.div`
   --border: solid 0.25em var(--clr-accent-dark);
   border-left: var(--border);
   border-right: var(--border);
-  padding: 0 2em;
+  padding: 2em;
 `;
 
 export const Wind = styled.div`

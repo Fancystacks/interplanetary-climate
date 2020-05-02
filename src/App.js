@@ -6,6 +6,7 @@ import Info from './components/Info';
 import Unit from './components/Unit';
 import Previous from './components/Previous';
 import { AppWrapper, GlobalStyle, MarsClimate, InfoWrapper } from './AppStyles';
+import { Toggle } from './components/UnitStyling';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -26,7 +27,7 @@ const App = () => {
           minTemp: weather[solKey].AT?.mn || 'No data was found',
           windSpeed: Math.round(weather[solKey].HWS?.av || 0),
           windDirection: weather[solKey].WD?.most_uncommon?.compass_degrees || 0,
-          date: formatDate(new Date(weather[solKey.First_UTC]))
+          date: formatDate(new Date(weather[solKey].First_UTC))
         }
       });
       setWeather(marsWeather);
@@ -51,9 +52,8 @@ const App = () => {
               <Unit/>
             </InfoWrapper>
             </>
-          )}
+          )}]
         </MarsClimate>
-        <Previous/>
       </AppWrapper>
     </>
   );
