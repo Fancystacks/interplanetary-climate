@@ -49,7 +49,7 @@ const App = () => {
             <ClimateData sol={weather[selectSol]} isMetric={metric}/>
             <InfoWrapper>
               <Info/>
-              <Unit/>
+              <Unit metric={metric} setMetric={setMetric}/>
             </InfoWrapper>
             </>
           )}]
