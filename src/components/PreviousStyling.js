@@ -45,8 +45,8 @@ export const Toggle = styled.button`
   position: absolute;
   background: var(--clr-light);
   left: 50%;
-  top: 50px;
-  width: 10rem;
+  top: 5px;
+  width: 9rem;
   transform: translate(-50%, calc(-100% - 3rem));
   text-align: center;
   font-size: var(--fs-h2);
@@ -72,6 +72,7 @@ export const Toggle = styled.button`
 
 export const PreviousDays = styled.div`
   display: grid;
+  padding: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   justify-content: space-between;
   height: 150px;
