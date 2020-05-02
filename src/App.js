@@ -46,7 +46,7 @@ const App = () => {
           {loading ? <div>Searching . . .</div> : (
             <>
             <h1 className="main-title">Latest Conditions at ___ </h1>
-            <ClimateData/>
+            <ClimateData sol={weather[selectSol]} isMetric={metric}/>
             <InfoWrapper>
               <Info/>
               <Unit/>
