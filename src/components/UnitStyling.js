@@ -15,7 +15,7 @@ export const UnitStyling = styled.div`
 
 export const Toggle = styled.button`
   cursor: pointer;
-  width: 4em;
+  width: 5em;
   border: 2px solid var(--clr-light);
   background: transparent;
   padding: 0;
@@ -27,7 +27,7 @@ export const Toggle = styled.button`
     background: var(--clr-light);
     border-radius: 50%;
     height: 1rem;
-    margin: 3px;
+    margin: 2px;
     margin-left: ${(props) => (props.metric ? '3px' : 'auto')};
     width: 1rem;
   }

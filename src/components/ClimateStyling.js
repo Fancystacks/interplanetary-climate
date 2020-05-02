@@ -21,7 +21,7 @@ export const Date = styled.div`
 `;
 
 export const Temp = styled.div`
-  padding: 0 3em;
+  padding: 0;
 `;
 
 export const Wind = styled.div`
@@ -31,7 +31,7 @@ export const Wind = styled.div`
     grid-column: 2 / 3;
   }
   .wind-direction {
-    --size: 6rem;
+    --size: 7rem;
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
@@ -43,7 +43,7 @@ export const Wind = styled.div`
   }
   .wind-arrow {
     --direction: ${(props) => props.deg + 'deg'};
-    --size: 0.9rem;
+    --size: 0.8rem;
     height: calc(var(--size) * 3);
     width: var(--size);
     background: var(--clr-accent-dark);
