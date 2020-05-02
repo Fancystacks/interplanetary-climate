@@ -4,8 +4,7 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1em;
-  padding: 20px 0;
-  margin-bottom: 40px;
+  padding: 40px 0;
 `;
 
 export const Date = styled.div`

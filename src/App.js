@@ -45,7 +45,7 @@ const App = () => {
         <MarsClimate>
           {loading ? <div>Searching . . .</div> : (
             <>
-            <h1 className="main-title">Latest Conditions at ___ </h1>
+            <h1 className="main-title">Latest Conditions at ridgemont high school </h1>
             <ClimateData sol={weather[selectSol]} isMetric={metric}/>
             <InfoWrapper>
               <Info/>
