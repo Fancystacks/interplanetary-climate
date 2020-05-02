@@ -63,7 +63,7 @@ export const MarsClimate = styled.main`
   display: inline;
   max-width: 1000px;
   margin: 40px 0;
-  border-radius: 20px;
+  border-radius: 10px;
   .main-title {
     font-size: var(--fs-h1);
     font-weight: var(--fw-light);

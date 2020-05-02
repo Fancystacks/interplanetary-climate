@@ -52,7 +52,7 @@ const App = () => {
               <Unit metric={metric} setMetric={setMetric}/>
             </InfoWrapper>
             </>
-          )}]
+          )}
         </MarsClimate>
       </AppWrapper>
     </>

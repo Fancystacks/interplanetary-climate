@@ -12,16 +12,17 @@ const ClimateData = ({ sol, isMetric }) => (
     </Date>
 
     <Temp>
-      <h2 className='section-title'>Temp</h2>
+      <h2 className='section-title'>Temperature</h2>
+      <br/>
       <p className='reading'>
         High:
         <span> {formatTemperature(sol.maxTemp, isMetric)}</span>°
-        <span> {isMetric ? '°C' : '°F'}</span>
+        <span> {isMetric ? 'C' : 'F'}</span>
       </p>
       <p className='reading'>
         Low:
         <span> {formatTemperature(sol.minTemp, isMetric)}</span>°
-        <span> {isMetric ? '°C' : '°F'}</span>
+        <span> {isMetric ? 'C' : 'F'}</span>
       </p>
     </Temp>
 

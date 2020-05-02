@@ -21,10 +21,7 @@ export const Date = styled.div`
 `;
 
 export const Temp = styled.div`
-  --border: solid 0.25em var(--clr-accent-dark);
-  border-left: var(--border);
-  border-right: var(--border);
-  padding: 2em;
+  padding: 0 3em;
 `;
 
 export const Wind = styled.div`
@@ -46,7 +43,7 @@ export const Wind = styled.div`
   }
   .wind-arrow {
     --direction: ${(props) => props.deg + 'deg'};
-    --size: 0.8rem;
+    --size: 0.9rem;
     height: calc(var(--size) * 3);
     width: var(--size);
     background: var(--clr-accent-dark);
