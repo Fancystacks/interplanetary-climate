@@ -45,11 +45,11 @@ export const PreviousWrapper = styled.div`
 
 export const Toggle = styled.button`
   position: fixed;
-  background: transparent;
-  opacity: .7;
+  background: var(--clr-dark);
+  opacity: .8;
   color: var(--clr-light);
   left: 50%;
-  top: 52px;
+  top: 60px;
   width: 7rem;
   transform: translate(-50%, calc(-100% - 3rem));
   text-align: center;
