@@ -4,6 +4,7 @@ export const PreviousWrapper = styled.div`
   background: var(--clr-light);
   color: var(--clr-dark);
   position: fixed;
+  opacity: .7;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -12,7 +13,7 @@ export const PreviousWrapper = styled.div`
   transition: -webkit-transform 350ms ease;
   transition: transform 350ms ease;
   transition: transform 350ms ease, -webkit-transform 350ms ease;
-  padding: 3rem;
+  padding: 0rem;
   .previous-weather__title {
     text-align: ${({ previous }) => (previous ? 'left' : 'center')};
     ${({ previous }) =>

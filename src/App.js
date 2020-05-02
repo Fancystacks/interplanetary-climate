@@ -54,6 +54,12 @@ const App = () => {
             </>
           )}
         </MarsClimate>
+        <Previous
+        weather={weather}
+        previous={previous}
+        setPrevious={setPrevious}
+        setSelectedSol={setSelectedSol}
+        isMetric={metric}/>
       </AppWrapper>
     </>
   );
