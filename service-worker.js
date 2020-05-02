@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/interplanetary-climate/precache-manifest.8a361d39f97895ca6a84537f03606c1d.js"
+  "/interplanetary-climate/precache-manifest.20f332301e988d0aa1829c6c88cc9298.js"
 );
 
 self.addEventListener('message', (event) => {

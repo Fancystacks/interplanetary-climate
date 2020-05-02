@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6dbf2dd28e7d9cf4aebe7b412641909",
+    "revision": "be1c4e24cbe5892b5cf03f34f30eb80f",
     "url": "/interplanetary-climate/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/interplanetary-climate/static/js/2.f08ee7de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b4bdc8cde8cd0af39ba3",
-    "url": "/interplanetary-climate/static/js/main.27419e70.chunk.js"
+    "revision": "d70e7a35c0155616530c",
+    "url": "/interplanetary-climate/static/js/main.3f8493de.chunk.js"
   },
   {
     "revision": "b078d67b42a82cf7ef6e",
